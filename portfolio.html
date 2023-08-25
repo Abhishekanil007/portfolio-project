@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form-container">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- hero section -->
+    <div class="bg-primary text-white p-5 text-center">
+      <h1 class="fw-normal display-3">Welcome to My Portfolio</h1>
+      <p class="fs-3 fw-lighter">I showcase my projects and skills here.</p>
+    </div>
+    <!-- about me section -->
+
+    <section class="container pt-5">
+      <h1 class="text-center pb-5">About Me</h1>
+      <div class="row">
+        <img
+          class="col-sm-12 col-md-6"
+          src="https://images.unsplash.com/photo-1545665277-5937489579f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+          alt="image"
+        />
+        <p class="col-sm-12 col-md-6">
+          Hello there, I'm Abhishek Anil! I have a knack for web stuff. You
+          know, building cool things on the internet? I'm all about HTML, CSS,
+          and Bootstrap – they make websites look awesome. And guess what? I can
+          make them do stuff too, thanks to JavaScript. Not just that, I've got
+          some Java chops too. So, in a nutshell, I'm your go-to guy for making
+          digital wonders happen! 🚀
+        </p>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="bg-light pb-5" id="portfolio">
+      <div class="container">
+        <h1 class="text-center py-5">Portfolio</h1>
+        <div class="row">
+          <div class="col-sm-12 mt-4 col-md-4">
+            <div class="card bg-dark">
+              <div class="card-body text-light">
+                <img
+                  src="https://images.unsplash.com/photo-1611125832047-1d7ad1e8e48f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FsY3VsYXRvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt="simple-calculator"
+                  class="card-img-top card-img-bottom"
+                />
+                <h4 class="m-3">Project 1</h4>
+                <p>Calculator</p>
+                <button class="btn btn-primary">Learn more</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 mt-4 col-md-4">
+            <div class="card bg-dark">
+              <div class="card-body text-light">
+                <img
+                  src="https://images.unsplash.com/photo-1591270551371-3401a1a9382f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YW1hem9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                  alt="amazon-clone"
+                  class="card-img-top card-img-bottom"
+                />
+                <h4 class="m-3">Project 2</h4>
+                <p>Amazon clone</p>
+                <button class="btn btn-primary">Learn more</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 mt-4 col-md-4">
+            <div class="card bg-dark">
+              <div class="card-body text-light">
+                <img
+                  src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym90fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                  alt="bot"
+                  class="card-img-top card-img-bottom"
+                />
+                <h4 class="m-3">Project 3</h4>
+                <p>Trading Bot</p>
+                <button class="btn btn-primary">Learn more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact us -->
+    <section id="form-container" class="container py-5">
+      <h1 class="text-center">Contact</h1>
+      <div class="row">
+        <div
+          class="d-flex flex-column col-sm-12 col-md-6 mx-auto align-items-center"
+        >
+          <label for="name" class="d-block w-100 text-start form-label"
+            >Name</label
+          >
+          <input type="text" id="name" class="form-control" />
+
+          <label for="email" class="d-block w-100 text-start form-label"
+            >Email</label
+          >
+          <input type="email" id="email" class="form-control" />
+
+          <label for="message" class="d-block w-100 text-start form-label"
+            >Message</label
+          >
+          <textarea
+            id="message"
+            class="form-control"
+            placeholder="Write your message here."
+            rows="5"
+          ></textarea>
+          <button class="btn btn-primary mt-4 w-75">Submit</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="text-center bg-dark text-light p-3 mt-5">
+      © 2023 My Portfolio. All rights reserved.
+    </footer>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
